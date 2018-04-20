@@ -22,3 +22,4 @@ function prependKitten (name) {
   var kittens3 = kittens.slice();
   kittens3.unshift("xxx");
   return kittens3;
+}
