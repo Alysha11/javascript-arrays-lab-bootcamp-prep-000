@@ -28,8 +28,8 @@ function removeLastKitten (name) {
   kittens4.pop();
   return kittens4;
 }
-function removeLastKitten (name) {
-  var kittens5 = kittens.slice();
-  kittens5.shift();
-  return kittens5;
+function removeFirstKitten (name) {
+  var kittens4 = kittens.slice();
+  kittens4.shift();
+  return kittens4;
 }
