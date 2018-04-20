@@ -13,7 +13,8 @@ function destructivelyRemoveFirstKitten (name) {
   kittens.shift();
 }
 function appendKitten (name) {
-  var = kittens2.splice
+  var = kittens2 kittens.slice()
+  
   
 
 }
