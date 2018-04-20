@@ -18,3 +18,7 @@ function appendKitten (name) {
   return kittens2;
 
 }
+function appendKitten (name) {
+  var kittens2 = kittens.slice();
+  kittens2.push("Broom");
+  return kittens2;
