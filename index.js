@@ -20,6 +20,6 @@ function appendKitten (name) {
 }
 function prependKitten (name) {
   var kittens3 = kittens.slice();
-  kittens3.unshift("xxx");
+  kittens3.unshift("Arnold");
   return kittens3;
 }
