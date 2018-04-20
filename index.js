@@ -29,4 +29,9 @@ function removeLastKitten (name) {
   return kittens4;
 }
 
-
+}
+function removeLastKitten (name) {
+  var kittens4 = kittens.slice();
+  kittens4.shift();
+  return kittens4;
+}
