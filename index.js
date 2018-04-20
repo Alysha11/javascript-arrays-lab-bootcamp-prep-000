@@ -13,15 +13,15 @@ function destructivelyRemoveFirstKitten (name) {
   kittens.shift();
 }
 function appendKitten (name) {
-  var kittens2 = kittens.slice();
-  kittens2.push("Broom");
+  var kittens4 = kittens.slice();
+  kittens4.push("Broom");
   return kittens2;
 
 }
 function prependKitten (name) {
-  var kittens3 = kittens.slice();
-  kittens3.unshift("Arnold");
-  return kittens3;
+  var kittens4 = kittens.slice();
+  kittens4.unshift("Arnold");
+  return kittens4;
 }
 function removeLastKitten (name) {
   var kittens4 = kittens.slice();
